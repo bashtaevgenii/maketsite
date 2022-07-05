@@ -1,0 +1,44 @@
+div#menu {color:white;}
+div#menu> ul> li {display:inline-block;}
+div#menu>ul>li:hover ul {
+padding-left:0;
+display:block;position:absolute;}
+div#menu>ul>li>ul {display:none;}
+div#menu>ul>li>ul>li
+{list-style-type:none;}
+div#menu>ul>li>ul>li:hover
+{list-style-type:disc}
+
+
+div#center-right 
+{
+background-size: 100%;
+background-position:center left;
+background-image:url('vetochka.png');
+background-repeat:no-repeat;
+}
+div#center-left 
+{
+background-repeat:no-repeat;
+background-size: 100%;
+background-position:center right;
+background-image:url('vetochka.png');
+}
+div#center 
+{
+background-size: cover;
+background-image:url('фон.jpg');
+}
+.plate {padding: 0px; height: 100px; width:100px; border-radius:50%;
+background-repeat:no-repeat;
+background-size: 100%;
+background-position:center center;
+background-color: black;
+background-image:url('plate-2.png');
+}
+.cart_img img{ border-radius:5%; text-align: center;height: 100%; width: 150px;}
+.cart_img { width: 150px;}
+.cart_text { min-width: 200px;}
+.cart_text, .cart_img { overflow: hidden; border-radius:5%; height: 200px;
+ margin: 3px; padding: 0px;} 
+.cart {border: 2px solid black; border-radius: 3%; margin: 3px; min-width: 36px;}
